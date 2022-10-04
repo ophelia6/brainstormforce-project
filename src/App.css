@@ -1,0 +1,73 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;color: #333;font-size: 16px;line-height: 21px;}
+ul{list-style-type:none;}
+
+.Header{padding: 10px 0;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.Header .Inner-header{max-width: 990px;margin: 0 auto;padding: 0 10px;}
+.Header .Img-wrap{max-width: 180px;}
+.Header .Img-wrap img{width: 100%; height:auto; display: block;}
+
+.Banner-section{margin: 50px 0 80px;}
+.Banner-wrap{max-width: 990px;margin: 0 auto;padding: 0 10px;}
+.Banner-wrap{display: flex;justify-content: space-between;align-items: center;}
+
+.Banner-wrap .Banner-content{max-width: 50%;flex: 1 1 50%;}
+.Banner-wrap .Banner-content .Title{font-size: 40px;line-height: 45px;font-weight: bold;margin-bottom: 30px;padding-right: 10px;}
+.Banner-wrap .Img-wrap{max-width: 40%;flex: 1 1 40%;}
+.Banner-wrap .Img-wrap img{width:100%;height: auto;display: block;}
+.Banner-wrap .Btn{background-color: #0347F9;width: 150px;padding: 15px 0;border-radius: 3px;color:#fff;font-weight: bold;text-transform: uppercase;text-align: center;margin-top: 30px;cursor: pointer;}
+
+.List-section .List{max-width: 990px;margin: 0 auto;padding: 0 10px;margin-bottom: 50px;}
+.List-section .List .List-item{border: 1px solid #ccc;padding: 10px;}
+.List-section .List .List-items{display: flex;align-items: center;margin: 0 -10px;flex-wrap: wrap;}
+.List-section .List .List-items li {max-width: 25%;flex: 1 1 25%;padding:10px;text-align: center;}
+.List-section .List .List-items li .Serial{font-size: 20px;margin: 20px 0 10px;line-height: 25px;font-weight: bold;}
+.List-section .List .List-items li .Type,.List-section .List .List-items li .Status{font-size: 14px;line-height: 19px;}
+.List-section .List .List-items li span{font-weight: bold;font-style:italic;font-size: 13px;line-height: 18px;}
+.List-section .List .List-items li .Img-wrap{max-width: 50px;margin: 0 auto;}
+.List-section .List .List-items li .Img-wrap img{width: 100%;height: auto;display: block;}
+.List-section .List .List-items li .Cta{font-size: 10px;line-height: 15px;padding-top: 10px;text-decoration: underline ;color: #0347F9;cursor: pointer;}
+
+.Filter-content{max-width: 500px;margin: 0 auto;width:100%;padding: 0 10px;}
+.Filter-content select{width: 100%;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 1;
+  font-size: 14px; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-color: #333;
+  color: #333;}
+  .Filter-title{font-size: 32px;line-height: 37px;text-align: center;margin-bottom: 30px; border-bottom:2px solid #0347F9; padding-bottom:10px;font-weight: bold;}
+  .Search-btn{background-color: #0347F9;width: 150px;padding: 15px 0;border-radius: 3px;color:#fff;font-weight: bold;text-transform: uppercase;text-align: center;cursor: pointer;margin: 10px auto 20px;}
+
+  .List-section .List .List-items li.No-result{font-size: 18px;line-height: 23px;text-align: center; padding: 30px 0;max-width: 100%;}
+  .Popup-section{position: fixed; z-index: 1;  padding-top: 100px; left: 0;
+    top: 0;width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4); }
+  .Popup-content{background-color: #fefefe;position: relative;
+    margin: auto;
+    padding: 40px 20px 20px;
+    border: 1px solid #888;
+    width: 80%;border-radius: 8px;}
+    .Popup-close{font-size: 10px;position: absolute;top:10px;right: 10px;cursor: pointer;text-transform: uppercase;}
+    .Popup-title{font-size: 20px;margin: 20px 0 10px;line-height: 25px;font-weight: bold;}
+    .Popup-info{font-size: 14px;
+      line-height: 19px;}
+    .Popup-info span{    font-weight: bold;
+        font-style: italic;
+        font-size: 13px;
+        line-height: 18px;}
+  .Loading{text-align: center;}
+
+@media only screen and (max-width: 699px) {
+  .Banner-section{margin: 30px 0}
+  .Banner-wrap{flex-direction: column-reverse;}
+  .Banner-wrap .Banner-content{max-width: 100%;flex: 1 1 100%;margin-top: 30px;text-align: center;}
+  .Banner-wrap .Banner-content .Title{font-size: 30px;line-height: 35px;}
+  .Banner-wrap .Img-wrap{max-width: 80%;flex: 1 1 80%;}
+  .Banner-wrap .Btn{margin: 30px auto 0;}
+  .Filter-title{    border-top: 2px solid #0347F9;
+    padding-top: 10px;}
+    .List-section .List .List-items li{    max-width: 50%;
+      flex: 1 1 50%;}
+
+}
